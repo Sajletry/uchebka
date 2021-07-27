@@ -1,0 +1,15 @@
+p{
+    color:green;
+}
+
+#password, #login{
+    color:#ffffff;
+}
+
+#login{
+    background: #009900;
+}
+
+#password{
+    background: #000099;
+}
