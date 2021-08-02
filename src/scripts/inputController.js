@@ -1,13 +1,13 @@
-const greenColor = '#009900';
-const blueColor = '#000099';
+//const greenColor = '#009900';
+//const blueColor = '#000099';
 
-const redColor1 = '#d20a25';
-const orangeColor1 = '#ff6816';
-const yellowColor1 = '#ffff00';
-const greenColor1 = '#3bcb00';
-const blueColor1 = '#246eff';
-const darkBlueColor1 = '#0707b7';
-const purpleColor1 = '#7020bf';
+const redColor = '#d20a25';
+const orangeColor = '#ff6816';
+const yellowColor = '#ffff00';
+const greenColor = '#3bcb00';
+const blueColor = '#246eff';
+const darkBlueColor = '#0707b7';
+const purpleColor = '#7020bf';
 
 function changeColor(input){
 
@@ -19,8 +19,12 @@ function changeColor(input){
     input.style.background = greenColor;
     input.dataset.isgreen = "true";
   }
+//----------------------------------
+  if(input.dataset.color === "red"){
+    input.style.background = orangeColor;
+  }
 
-
+/*
 //1
   if (input.dataset.isred1 === "true" ){
     input.style.background = redColor1;
@@ -84,6 +88,7 @@ function changeColor(input){
     input.style.background = redColor1;
     input.dataset.ispurple1 = "true";
   }
+*/
 
 }
 
