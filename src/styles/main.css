@@ -1,5 +1,4 @@
-p{
-    color:green;
+p{    color:green;
 }
 
 #password, #login{
@@ -13,13 +12,15 @@ p{
 #password{
     background: #000099;
 }
+
+
 #red{
     background: red;
     color: #751212;
 }
 #orange{
     background: orange;
-    color: burlywood;
+    color: #ee660b;
 }
 #yellow{
     background: #ffdf00;
@@ -27,7 +28,7 @@ p{
 }
 #green{
     background: forestgreen;
-    color: darkgreen;
+    color: #41e341;
 }
 #blue{
     background:cornflowerblue;
