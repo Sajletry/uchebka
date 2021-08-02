@@ -1,7 +1,7 @@
-p{    color:green;
-}
+/*p{    color:green;*/
+/*}*/
 
-#password, #login{
+#password, #login, #purple, #darkBlue,#blue,#green,#yellow,#orange,#red{
     color:#ffffff;
 }
 
@@ -12,33 +12,40 @@ p{    color:green;
 #password{
     background: #000099;
 }
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 
 #red{
     background: red;
-    color: #751212;
+    //color: #751212;
 }
 #orange{
     background: orange;
-    color: #ee660b;
+   // color: #ee660b;
 }
 #yellow{
     background: #ffdf00;
-    color: #f3a406;
+    //color: #f3a406;
 }
 #green{
     background: forestgreen;
-    color: #41e341;
+   //color: #41e341;
 }
 #blue{
     background:cornflowerblue;
-    color: #0d2f9f;
+    //color: #0d2f9f;
 }
 #darkBlue{
     background: darkblue;
-    color: dodgerblue;
+    //color: dodgerblue;
 }
 #purple{
     background:purple;
-    color: mediumpurple;
+   // color: mediumpurple;
 }
+
