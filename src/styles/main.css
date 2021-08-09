@@ -1,15 +1,37 @@
-p{
-    color:green;
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
 }
 
-#password, #login{
-    color:#ffffff;
+input {
+    display: block;
+    width: 200px;
+    margin: 15px auto;
+    padding: 10px 7px;
+    border: 1px solid grey;
+    border-radius: 5px;
 }
 
-#login{
-    background: #009900;
+.red {
+    background-color: #ff7272;
 }
-
-#password{
-    background: #000099;
+.orange {
+    background-color: #ffa372;
+}
+.yellow {
+    background-color: #ffec72;
+}
+.green {
+    background-color: #72ff85;
+}
+.blue {
+    background-color: #72fffa;
+}
+.darkBlue {
+    background-color: #72bdff;
+}
+.violet {
+    background-color: #a872ff;
 }
