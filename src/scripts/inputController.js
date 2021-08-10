@@ -1,28 +1,44 @@
 //const greenColor = '#009900';
 //const blueColor = '#000099';
 
-const redColor = '#d20a25';
-const orangeColor = '#ff6816';
-const yellowColor = '#ffff00';
-const greenColor = '#3bcb00';
-const blueColor = '#246eff';
-const darkBlueColor = '#0707b7';
-const purpleColor = '#7020bf';
+// const redColor = '#d20a25';
+// const orangeColor = '#ff6816';
+// const yellowColor = '#ffff00';
+// const greenColor = '#3bcb00';
+// const blueColor = '#246eff';
+// const darkBlueColor = '#0707b7';
+// const purpleColor = '#7020bf';
 
-function changeColor(input){
+function changeColor(input) {
 
-  if(input.dataset.isgreen === "true"){
+  if (input.dataset.isgreen === "true") {
     input.style.background = blueColor;
     input.dataset.isgreen = "false";
-  }
-  else if(input.dataset.isgreen === "false"){
+  } else if (input.dataset.isgreen === "false") {
     input.style.background = greenColor;
     input.dataset.isgreen = "true";
   }
 //----------------------------------
-  if(input.dataset.color === "red"){
-    input.style.background = orangeColor;
-  }
+//  if(input.dataset.color === "darkRed"){
+//    alert(input.style.background = orangeColor);
+//   }
+//  else {if (input.dataset.color === "orange")input.style.background = yellowColor }
+//     ;
+//    }
+//     else (input.dataset.color === "yellow");{
+//    input.style.background = greenColor;
+//   }
+//----------------------------------
+//   let orig = input.style.color;
+//   input.style.background = 'aqua';
+//   setTimeout(function () {
+//     input.style.color = orig;
+//   }, 100);
+
+input.style.background.red =  redColor;
+
+
+
 
 /*
 //1
@@ -89,8 +105,8 @@ function changeColor(input){
     input.dataset.ispurple1 = "true";
   }
 */
-
 }
+
 
 function onTimer(input){
   setInterval(()=>{
