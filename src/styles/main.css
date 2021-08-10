@@ -1,7 +1,8 @@
-/*p{    color:green;*/
-/*}*/
+p{    color:green;
+}
+#password, #login{
+/*#purple, #darkBlue,#blue,#green,#yellow,#orange,#red*/
 
-#password, #login, #purple, #darkBlue,#blue,#green,#yellow,#orange,#red{
     color:#ffffff;
 }
 
@@ -15,37 +16,37 @@
 .box{
     display: flex;
     align-items: center;
-    justify-content: center;
+    ustify-content: center;
     flex-direction: column;
 }
 
 
-#red{
-    background: red;
-    //color: #751212;
-}
-#orange{
-    background: orange;
-   // color: #ee660b;
-}
-#yellow{
-    background: #ffdf00;
-    //color: #f3a406;
-}
-#green{
-    background: forestgreen;
-   //color: #41e341;
-}
-#blue{
-    background:cornflowerblue;
-    //color: #0d2f9f;
-}
-#darkBlue{
-    background: darkblue;
-    //color: dodgerblue;
-}
-#purple{
-    background:purple;
-   // color: mediumpurple;
-}
+/*#red{*/
+/*    background: red;*/
+/*    color: #8a1616;*/
+/*}*/
+/*#orange{*/
+/*    background: orange;*/
+/*    color: #ee660b;*/
+/*}*/
+/*#yellow{*/
+/*    background: #ffdf00;*/
+/*    color: #ff8415;*/
+/*}*/
+/*#green{*/
+/*    background: forestgreen;*/
+/*   color: #41e341;*/
+/*}*/
+/*#blue{*/
+/*    background:cornflowerblue;*/
+/*    color: #0d2f9f;*/
+/*}*/
+/*#darkBlue{*/
+/*    background: darkblue;*/
+/*    color: dodgerblue;*/
+/*}*/
+/*#purple{*/
+/*    background:purple;*/
+/*    color: #e676ff;*/
+/*}*/
 
