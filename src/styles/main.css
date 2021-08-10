@@ -1,15 +1,26 @@
-p{
-    color:green;
+body{
+    height: 100vh;
+
 }
 
-#password, #login{
-    color:#ffffff;
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
-#login{
-    background: #009900;
+#left,#right{
+    width: 45%;
+    min-height: 300px;
+    margin: 1%;
+    border: 1px solid #000;
+    float: left;
 }
 
-#password{
-    background: #000099;
+#ball{
+    border-radius: 50%;
+    background: #888888;
+    height: 50px;
+    width: 50px;
+    cursor: grabbing;
 }
